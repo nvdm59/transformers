@@ -70,8 +70,6 @@ def load_cuda_kernels():
 
     cuda_kernel = load("cuda_kernel", src_files, verbose=True)
 
-    import cuda_kernel
-
 
 cuda_kernel = None
 
